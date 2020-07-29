@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+body a:hover{
+    text-decoration: none;
+}
+#banner{
+    background: #000000;
+    height: 680px
+}
+.banner-img{
+    height: 600px;
+    width: 120%;
+}
+.banner-img img{
+    height: 680px;
+    width: 100%;
+    margin-left: 10px;
+}
+.banner-text h1{
+    font-size: 60px;
+    font-family: 'Halant', serif;
+    color: #900d0d;
+    margin-top: 50px;
+}
+.banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 400px;
+    color: #cf7500;
+    margin-bottom: 50px;
+}
+.banner-text a{
+    font-size: 20px;
+    color:#ffffff;
+    padding: 15px 20px;
+    background: linear-gradient(to right, #900d0d , #cf7500);
+    border-radius: 0px;
+    transition: .8s;
+}
+.banner-text a:hover{
+    background: linear-gradient(to right, #cf7500,#900d0d);
+}
+.menu{
+    margin-top: 70px;
+    
+    display: inline-block;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: -5px;
+    border: 1px solid #900d0d;
+    padding: 10px 30px;
+    line-height: 30px;
+}
+.menu ul li a{
+    color: #cf7500;
+    font-size: 18px;
+    font-family: 'Halant', serif; 
+}
+
+.menu ul li:hover{
+    border: 1px solid #b1a89d;
+}
+#about{
+    background: #900d0d;
+    height: 700px;
+}
+.education{
+    background: #000000;
+    padding: 35px;
+    margin-top: 80px;
+      
+}
+.education h2{
+    font-size: 24px;
+    font-family: 'Halant', serif;
+    color: #900d0d;
+    margin-bottom: 30px;
+}
+.education p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cf7500;
+    line-height: 26px;
+   
+}
+.skill{
+    background: #000000;
+    padding: 35px;
+    margin-top: 80px;
+}
+.skill h2{
+    font-size: 24px;
+    font-family: 'Halant', serif;
+    color: #900d0d;
+    margin-bottom: 30px;
+}
+.skill p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cf7500;
+    line-height: 26px;
+}
+.fa-circle{
+    color: #900d0d;
+    margin-right: 10px;
+}
+
+.extra-banner{
+    background: url(../images/actor-adult-black-and-white-dark-432059.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
+.work-text{
+    text-align: center;
+}
+.design{
+    background: #000000;
+    padding: 35px;
+}
+.design h3{
+    font-size: 24px;
+    font-family: 'Halant', serif;
+    color: #900d0d;
+    margin-bottom: 20px;
+}
+.design p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cf7500;
+    line-height: 26px;
+}
+.wordpress{
+    background: #000000;
+    padding: 35px;
+}
+.wordpress h3{
+    font-size: 24px;
+    font-family: 'Halant', serif;
+    color: #900d0d;
+    margin-bottom: 20px;
+}
+.wordpress p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cf7500;
+    line-height: 26px;
+}
+
+.email{
+    background: #000000;
+    padding: 35px;
+}
+.email h3{
+    font-size: 24px;
+    font-family: 'Halant', serif;
+    color: #900d0d;
+    margin-bottom: 20px;
+}
+.email p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cf7500;
+    line-height: 26px;
+}
+.mar{
+    margin-bottom: 40px;
+}
+.order{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 8px 10px;
+    color: #ffffff;
+    background: linear-gradient(to right, #900d0d , #cf7500);
+    transition: .3s;
+}
+.order:hover{
+    background: linear-gradient(to right, #cf7500, #900d0d );
+    color: #ffffff;
+    font-size: 14px
+}
+#work{
+    background: #900d0d;
+    height: 740px;
+    padding-top: 50px;
+}
+.work-text h2{
+    font-size: 42px;
+    color: #cf7500;
+    font-family: 'Halant', serif;
+    font-weight: 700;
+    
+}
+.work-text p{
+    font-size: 20px;
+    color: #cf7500;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    
+}
+#upcomming{
+    height: 500px;
+    background: #900d0d;
+    padding-top: 50px;
+}
+.myself{
+    background: url(../images/abstract-red_00172413.6.bmp) no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
+.me-text h2{
+    font-size: 32px;
+    color:  #900d0d;
+    font-family: 'Halant', serif;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.me-text p{
+    font-size: 16px;
+    color:  #cf7500;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer-banner{
+    background: url(../images/151457-red-black-background-1920x1080-samsung.jpg) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+.footer-banner h2{
+    font-size:36px;
+    color: #cf7500;
+    font-size: 'Halant', serif;
+     padding-top: 40px;
+    text-decoration: underline;
+}
+
+.footer-banner h3{
+    font-size:36px;
+    color: #900d0d;
+    font-size: 'Halant', serif;
+   
+}
+.footer-banner ul{
+    margin-top: 20px
+}
+.footer-banner ul li{
+    margin-bottom: 10px;
+  
+}
+.footer-banner ul li a{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cf7500;
+}
+.footer-banner ul li a:hover{
+    color: #900d0d;
+}
+
+
